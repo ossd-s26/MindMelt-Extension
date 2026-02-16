@@ -9,7 +9,7 @@
 
     // fade effect
     fadeToOpacity: 0,
-    fadeInMs: 800,
+    fadeInMs: 700,
     holdDarkMs: 800,
     fadeOutMs: 1200,
 
@@ -24,7 +24,7 @@
     speedChance: 1,
     speedMin: 0.65,
     speedMax: 1.75,
-    speedRecoverToNormal: false, // restore to 1.0 after effect
+    speedRecoverToNormal: false,
     speedRecoverDelayMs: 5000,
 
     // sound effect
