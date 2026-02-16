@@ -9,10 +9,12 @@ Simply install and find a YouTube video of your choice. Every few seconds, this 
 
 # Installation, Development, & Contributing
 - Ensure Google Chrome and Git are installed on your device.
-- Fork the repository and clone into it.
-- Add your fork of the extension to Chrome by opening [chrome://extensions/](chrome://extensions/), enabling developer mode in the top right corner, clicking "Load unpacked" in the top left corner, and selecting your project directory.
+- Fork the repository and clone it locally.
+- Add your fork of the extension to Chrome by opening [chrome://extensions/](chrome://extensions/), enabling **Developer mode** in the top right corner, clicking **Load unpacked** and selecting your project directory.
+- To contribute please follow our **CONTRIBUTING.md** for branching and pull-request guidelines.
+- Please follow our **CODE_OF_CONDUCT.md** to maintain a respectful and open community.
 - Submit pull requests [here](https://github.com/ossd-s26/MindMelt-Extension/pulls) or from your repository.
-- Report issues [here](https://github.com/ossd-s26/MindMelt-Extension/issues).
+- Report bugs and issues [here](https://github.com/ossd-s26/MindMelt-Extension/issues).
 
 # Contributors
 - [Hana Bai](https://github.com/HanaB14) 
