@@ -3,17 +3,25 @@
     "name": "MindMelt Extension",
     "version": "1.0.0",
     "description": "Randomly fades the screen and jumps to random parts of YouTube videos.",
-    "permissions": [],
+    "permissions": [
+      "offscreen"
+    ],
     "host_permissions": [
       "*://www.youtube.com/watch*"
     ],
-  
+    "background": {
+      "service_worker": "background.js"
+    },
     "content_scripts": [
       {
         "matches": ["*://www.youtube.com/watch*"],
         "js": ["content.js"],
         "run_at": "document_idle"
       }
-    ]
+    ],
+    "web_accessible_resources": [{
+      "resources": ["lobotomy_sound_effect.wav"],
+      "matches": ["https://www.youtube.com/*"]
+    }]
   }
   
